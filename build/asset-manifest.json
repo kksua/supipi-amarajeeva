@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/supipi-amarajeeva/static/css/main.704c2aaf.css",
+    "main.js": "/supipi-amarajeeva/static/js/main.97be088d.js",
+    "static/js/453.b6d8504b.chunk.js": "/supipi-amarajeeva/static/js/453.b6d8504b.chunk.js",
+    "static/media/me.png": "/supipi-amarajeeva/static/media/me.b31629f8c532bab045e0.png",
+    "index.html": "/supipi-amarajeeva/index.html",
+    "main.704c2aaf.css.map": "/supipi-amarajeeva/static/css/main.704c2aaf.css.map",
+    "main.97be088d.js.map": "/supipi-amarajeeva/static/js/main.97be088d.js.map",
+    "453.b6d8504b.chunk.js.map": "/supipi-amarajeeva/static/js/453.b6d8504b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.704c2aaf.css",
+    "static/js/main.97be088d.js"
+  ]
+}
