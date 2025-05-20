@@ -586,6 +586,10 @@ main{
     text-align: center;
   }
 
+  .about-container {
+    padding: 0;
+  }
+
   .about-details {
     grid-template-columns: 1fr;
   }

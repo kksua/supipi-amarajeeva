@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/supipi-amarajeeva/static/css/main.9b59d48b.css",
+    "main.css": "/supipi-amarajeeva/static/css/main.02ae9838.css",
     "main.js": "/supipi-amarajeeva/static/js/main.353ac120.js",
     "static/js/453.b6d8504b.chunk.js": "/supipi-amarajeeva/static/js/453.b6d8504b.chunk.js",
     "static/media/supipi-animation-gif.gif": "/supipi-amarajeeva/static/media/supipi-animation-gif.f074638788c894c9bea6.gif",
@@ -21,12 +21,12 @@
     "static/media/nodejs.svg": "/supipi-amarajeeva/static/media/nodejs.679e00d3f1224b41a5c85aca9765b898.svg",
     "static/media/kubernetes.svg": "/supipi-amarajeeva/static/media/kubernetes.283a0622c30260cc0a0c48e3858504df.svg",
     "index.html": "/supipi-amarajeeva/index.html",
-    "main.9b59d48b.css.map": "/supipi-amarajeeva/static/css/main.9b59d48b.css.map",
+    "main.02ae9838.css.map": "/supipi-amarajeeva/static/css/main.02ae9838.css.map",
     "main.353ac120.js.map": "/supipi-amarajeeva/static/js/main.353ac120.js.map",
     "453.b6d8504b.chunk.js.map": "/supipi-amarajeeva/static/js/453.b6d8504b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b59d48b.css",
+    "static/css/main.02ae9838.css",
     "static/js/main.353ac120.js"
   ]
 }
