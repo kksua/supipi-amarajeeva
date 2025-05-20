@@ -586,8 +586,8 @@ main{
     text-align: center;
   }
 
-  .about-container {
-    padding: 0;
+  .about-section {
+    padding : 0;
   }
 
   .about-details {
@@ -597,5 +597,11 @@ main{
   .my-projects {
     margin-left:0rem;
     padding: 4rem 3rem;
+  }
+
+  @keyframes expandLine {
+    to {
+      width: calc(30%); 
+    }
   }
 }
