@@ -1,7 +1,16 @@
 import './App.css';
-import profileImage from './images/me.png';
+import profileGif from './assets/supipi-animation-gif.gif';
 import techLogos from './techLogos';
 import myImage from './images/supipi.png';
+import joggingIcon from './icons/jogging.png';
+import sitarIcon from './icons/sitar.png';
+import frenchIcon from './icons/french.png';
+import travelIcon from './icons/travel.png';
+import photographyIcon from './icons/Photography.png';
+import musicIcon from './icons/music.png';
+import MyProjectsSection from './MyProjectsSection';
+import ContactSection from './ContactSection';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -9,24 +18,45 @@ function App() {
       <header className="navbar">
         <nav>
           <ul>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </header>
       <main className="hero">
         <div className="text-section">
-          <h1 className="name">SUPIPI<br />AMARAJEEVA</h1>
+        <h1 className="name">
+          {'SUPIPI'.split('').map((char, i) => (
+            <span
+              className="letter"
+              style={{ '--delay': `${i * 0.1}s` }}
+              key={`s-${i}`}
+            >
+              {char}
+            </span>
+          ))}
+          <br />
+          {'AMARAJEEVA'.split('').map((char, i) => (
+            <span
+              className="letter"
+              style={{ '--delay': `${(i + 6) * 0.1}s` }}
+              key={`a-${i}`}
+            >
+              {char}
+            </span>
+          ))}
+        </h1>
+
           <p className="subtitle">
-            Hi, I'm Supipi, a passionate tech enthusiast and final-year Master's student in Digital Service Engineering.<br/><br/>
+            Hi, I'm Supipi, a passionate tech enthusiast and final-year Master's student in Digital Service Engineering based in France.<br/><br/>
             <em>(Ingénierie de Service Numérique)</em> <br/> <br/>
             <a href="#about" className="cta-button">About Me</a>
           </p>
         </div>
 
         <div className="image-section">
-          <img src={profileImage} alt="Supipi at computer with cat" />
+          <img src={profileGif} alt="Supipi at computer with cat" />
         </div>
       </main>
 
@@ -49,9 +79,11 @@ function App() {
             <span className="tag">About Me</span>
             <h2>Hello from My Side</h2>
             <p>
-            I’m someone who loves turning imagination into digital reality.
-            I enjoy bringing ideas to life through clean, thoughtful design and smart development. 
-            My journey has been shaped by a love for learning, collaborating across cultures, and building digital experiences that make a difference.
+            I'm someone who loves turning imagination into digital reality. 
+            I work across full-stack development, mobile applications, AI-based tools, web design and content creation. 
+            I enjoy bringing ideas to life through clean design and smart development. 
+            My journey has been shaped by a love for learning, collaborating across cultures, and building digital experiences that make a difference. 
+            I'm constantly expanding my skills and exploring new ways to create impactful work.
             </p>
 
             <div className="about-details">
@@ -79,27 +111,27 @@ function App() {
               <h3>My Interests</h3>
               <div className="interest-boxes">
                 <div className="interest-box">
-                  <img src="/icons/jogging.png" alt="Jogging" />
+                <img src={joggingIcon} alt="Jogging" />
                   <span>Jogging</span>
                 </div>
                 <div className="interest-box">
-                  <img src="/icons/sitar.png" alt="Sitar" />
+                <img src={sitarIcon} alt="Sitar" />
                   <span>Playing Sitar</span>
                 </div>
                 <div className="interest-box">
-                  <img src="/icons/french.png" alt="French" />
+                <img src={frenchIcon} alt="French" />
                   <span>Learning French</span>
                 </div>
                 <div className="interest-box">
-                  <img src="/icons/travel.png" alt="Travel" />
-                  <span>Traveling</span>
+                <img src={travelIcon} alt="Travel" />
+                  <span>Travel</span>
                 </div>
                 <div className="interest-box">
-                  <img src="/icons/music.png" alt="Music" />
+                <img src={musicIcon} alt="Music" />
                   <span>Music</span>
                 </div>
                 <div className="interest-box">
-                  <img src="/icons/Photography.png" alt="Photography" />
+                  <img src={photographyIcon} alt="Photography" />
                   <span>Photography</span>
                 </div>
               </div>
@@ -112,6 +144,9 @@ function App() {
           </div>
         </div>
       </section>
+      <MyProjectsSection />
+      <ContactSection />
+      <Footer />
 
     </div>
   );
