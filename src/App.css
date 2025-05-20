@@ -337,6 +337,16 @@ main{
     width: calc(10%); 
   }
 }
+
+.projects-subtext {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #333;
+  margin-top: -1rem;
+  margin-bottom: 2.5rem;
+  opacity: 0.8;
+}
+
 .projects-grid {
   display: grid;
   gap: 2rem;
@@ -494,12 +504,12 @@ main{
 }
 
 .footer-tagline {
-  font-family: Georgia, Geneva, Tahoma, sans-serif;
+  font-family: 'Verdana', sans-serif;
+  font-size: 2rem;
   color: #fff;
-  font-size: 5rem;
-  margin-top: 1.2rem;
-  margin-bottom: 0.3rem;
-  text-overflow: ellipsis;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
 }
 
 .icon-wrapper {

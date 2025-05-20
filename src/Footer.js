@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer className="footer">
-        <p className="footer-tagline"></p>
+        <p className="footer-tagline">WRITING STORIES IN SYNTAX</p>
       <div className="icon-wrapper">
         <a href="https://github.com/kksua" target="_blank" rel="noopener noreferrer" className="icon-circle">
           <FaGithub />

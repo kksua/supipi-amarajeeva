@@ -36,6 +36,9 @@ export default function MyProjectsSection() {
   return (
     <section id="projects" className="my-projects">
       <h2 className="projects-heading">My Projects</h2>
+      <p className="projects-subtext">
+        A collection of projects I've worked on.
+      </p>
       <div className="projects-grid">
         {projects.map((project, index) => (
           <div className="project-card" key={index}>
