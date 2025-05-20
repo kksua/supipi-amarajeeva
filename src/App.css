@@ -545,6 +545,10 @@ main{
     margin: 0 0 0 0;
   }
 
+  main{
+    margin: 0;
+  }
+
   .hero {
     flex-direction: column;
     padding: 2rem;
