@@ -24,11 +24,10 @@ const projects = [
     github: 'https://github.com/AkoffonFifa/Projet-Club-de-Sport',
   },
   {
-    title: 'Speech-to-Text API (Hackathon)',
-    description:
-      'AI-based API to support speech disorder patients. Recognized during the Med’ing Hackathon.',
-    tech: ['AI', 'Python', 'NLP', 'Phonetic Algorithms','Docker'],
-    github: 'https://github.com/kksua/PING',
+    title: 'Station-Service Finder Web App',
+    description: 'A JavaEE web app for finding nearby fuel stations with smart recommendations.',
+    tech: ['JavaEE', 'MySQL', 'Apache Tomcat', 'Data.gouv.fr API'],
+    github: 'https://github.com/kksua/IRVE',
   },
 ];
 
