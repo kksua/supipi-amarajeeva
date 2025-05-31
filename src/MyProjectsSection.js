@@ -3,6 +3,11 @@ import { FaGithub } from 'react-icons/fa';
 
 const projects = [
   {
+    title: 'AI Speech-to-Text Platform',
+    description: 'This project aims to support individuals with orthographic difficulties, such as dyslexia or dysorthographia, by providing real-time feedback on pronunciation and phoneme accuracy.  It transcribes speech in real-time using a pretrained AI model and scores pronunciation accuracy by comparing spoken input with expected phonemes. Built using Python, Streamlit, and Hugging Face models, the platform offers instant visual feedback for users to track progress and self-correct. It was developed during a university hackathon and refined further as a semester project.',
+    tech: ['Python', 'Streamlit', 'Wav2Vec2', 'Hugging Face', 'Docker'],
+  },
+  {
     title: 'Quiz Platform',
     description: 'The Quiz Platform allows users to participate in live quizzes with immediate feedback and scoring. Users can view questions in real-time, select answers from multiple choices, and receive their results instantly. The platform supports timer-based questions and leaderboard displays, making it ideal for competitive and educational events.',
     tech: ['Java EE', 'Spring Boot', 'Hibernate', 'MySQL'],
@@ -83,9 +88,11 @@ export default function MyProjectsSection() {
                         <span className="tech" key={i}>{tech}</span>
                       ))}
                     </div>
-                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="github-link">
-                      <FaGithub /> GitHub ↗
-                    </a>
+                    {project.github && (
+                      <a href={project.github} target="_blank" rel="noopener noreferrer" className="github-link">
+                        <FaGithub /> GitHub ↗
+                      </a>
+                    )}
                   </div>
                 )}
               </div>
@@ -101,9 +108,11 @@ export default function MyProjectsSection() {
                   <span className="tech" key={i}>{tech}</span>
                 ))}
               </div>
-              <a href={selected.github} target="_blank" rel="noopener noreferrer" className="github-link">
-                <FaGithub /> GitHub ↗
-              </a>
+              {selected.github && (
+                <a href={selected.github} target="_blank" rel="noopener noreferrer" className="github-link">
+                  <FaGithub /> GitHub ↗
+                </a>
+              )}
             </div>
 
             <div className="project-right">
