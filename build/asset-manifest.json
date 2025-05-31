@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/supipi-amarajeeva/static/css/main.3cf56f80.css",
-    "main.js": "/supipi-amarajeeva/static/js/main.a38b4c5d.js",
+    "main.js": "/supipi-amarajeeva/static/js/main.28062059.js",
     "static/js/453.b6d8504b.chunk.js": "/supipi-amarajeeva/static/js/453.b6d8504b.chunk.js",
     "static/media/supipi-animation-gif.gif": "/supipi-amarajeeva/static/media/supipi-animation-gif.f074638788c894c9bea6.gif",
     "static/media/wordpress.png": "/supipi-amarajeeva/static/media/wordpress.70f1054de6ed991772d4.png",
@@ -21,11 +21,11 @@
     "static/media/kubernetes.svg": "/supipi-amarajeeva/static/media/kubernetes.283a0622c30260cc0a0c48e3858504df.svg",
     "index.html": "/supipi-amarajeeva/index.html",
     "main.3cf56f80.css.map": "/supipi-amarajeeva/static/css/main.3cf56f80.css.map",
-    "main.a38b4c5d.js.map": "/supipi-amarajeeva/static/js/main.a38b4c5d.js.map",
+    "main.28062059.js.map": "/supipi-amarajeeva/static/js/main.28062059.js.map",
     "453.b6d8504b.chunk.js.map": "/supipi-amarajeeva/static/js/453.b6d8504b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3cf56f80.css",
-    "static/js/main.a38b4c5d.js"
+    "static/js/main.28062059.js"
   ]
 }
